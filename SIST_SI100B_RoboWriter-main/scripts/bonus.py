@@ -145,7 +145,7 @@ def main() -> None:
 
   transition_time = 1.5  # 每段旋转用时（秒）
   stage = 1              # 当前目标阶段（从 q0→q1 开始转）
-  stage_start = time.time()
+  stage_start = time.time() 
 
   with viewer.launch_passive(model, data) as v:
     while v.is_running():
